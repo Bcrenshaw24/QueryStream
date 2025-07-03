@@ -11,7 +11,7 @@ export default function Home() {
 
   const handleSearch = async (query: string) => { 
     try {
-      const res = await fetch('http://127.0.0.1:8000/search', { 
+      const res = await fetch('https://6866d2a7a9866f00b428112a--glistening-axolotl-d71eda.netlify.app/search', { 
         method: 'POST', 
         headers: { 
           'Content-Type': 'application/json'
